@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://solisgrowing.github.io/"/>
-  <updated>2019-11-18T06:42:09.734Z</updated>
+  <updated>2019-11-20T02:26:49.755Z</updated>
   <id>https://solisgrowing.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>머신러닝</title>
+    <link href="https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/"/>
+    <id>https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</id>
+    <published>2019-11-20T02:26:49.000Z</published>
+    <updated>2019-11-20T02:26:49.755Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
