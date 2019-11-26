@@ -12,14 +12,14 @@
     
     <meta name="keywords" content="" />
     
-    <meta name="description" content="백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input()) M은 예산, K는 제한금액def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    retu">
+    <meta name="description" content="백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input()) def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    return sum def bin">
 <meta property="og:type" content="article">
 <meta property="og:title" content="틀린거라도 올려보자">
 <meta property="og:url" content="https:&#x2F;&#x2F;solisgrowing.github.io&#x2F;2019&#x2F;11&#x2F;20&#x2F;%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D&#x2F;index.html">
 <meta property="og:site_name" content="FORHAPPYLIFE">
-<meta property="og:description" content="백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input()) M은 예산, K는 제한금액def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    retu">
+<meta property="og:description" content="백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input()) def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    return sum def bin">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-26T05:08:53.702Z">
+<meta property="og:updated_time" content="2019-11-26T05:11:14.907Z">
 <meta name="twitter:card" content="summary">
     
 
@@ -171,8 +171,8 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p>백준 예산<br>‘’’N=int(input())<br>M=list(map(int,input().split()))<br>K=int(input())</p>
-<h1 id="M은-예산-K는-제한금액"><a href="#M은-예산-K는-제한금액" class="headerlink" title="M은 예산, K는 제한금액"></a>M은 예산, K는 제한금액</h1><p>def budget(a):<br>    sum=0<br>    for i in M:<br>        if i&lt;a:<br>            sum += i<br>        else:<br>            sum += a<br>    return sum</p>
+            <p>백준 예산<br>‘’’<br>N=int(input())<br>M=list(map(int,input().split()))<br>K=int(input())</p>
+<p>def budget(a):<br>    sum=0<br>    for i in M:<br>        if i&lt;a:<br>            sum += i<br>        else:<br>            sum += a<br>    return sum</p>
 <p>def binarySearch(K):<br>    start=min(M)<br>    end=max(M)<br>    ans = 0<br>    while(start&lt;=end):<br>        mid = (start+end)//2<br>        Sum = budget(mid)<br>        if Sum &gt;= K :<br>            end = mid -1<br>        if Sum &lt; K:<br>            ans = mid<br>            start = mid + 1<br>        print(mid)<br>    return ans</p>
 <p>print(binarySearch(K))</p>
 <p>‘’’</p>
@@ -262,8 +262,9 @@
         "dateModified": "2019-11-26",
         "url": "https://solisgrowing.github.io/2019/11/20/머신러닝/",
         "description": "백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input())
-M은 예산, K는 제한금액def budget(a):    sum=0    for i in M:        if i&lt;a:            sum += i        else:            sum += a    retu",
-        "wordCount": 194
+def budget(a):    sum=0    for i in M:        if i&lt;a:            sum += i        else:            sum += a    return sum
+def bin",
+        "wordCount": 184
     }
 </script>
 
