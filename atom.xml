@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://solisgrowing.github.io/"/>
-  <updated>2019-11-26T05:18:22.218Z</updated>
+  <updated>2019-11-26T05:19:22.857Z</updated>
   <id>https://solisgrowing.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/"/>
     <id>https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</id>
     <published>2019-11-20T02:26:49.000Z</published>
-    <updated>2019-11-26T05:18:22.218Z</updated>
+    <updated>2019-11-26T05:19:22.857Z</updated>
     
-    <content type="html"><![CDATA[<p>백준 예산<br>‘’’python</p><p>N=int(input())<br>M=list(map(int,input().split()))<br>K=int(input())</p><p>def budget(a):<br>    sum=0<br>    for i in M:<br>        if i&lt;a:<br>            sum += i<br>        else:<br>            sum += a<br>    return sum</p><p>def binarySearch(K):<br>    start=min(M)<br>    end=max(M)<br>    ans = 0<br>    while(start&lt;=end):<br>        mid = (start+end)//2<br>        Sum = budget(mid)<br>        if Sum &gt;= K :<br>            end = mid -1<br>        if Sum &lt; K:<br>            ans = mid<br>            start = mid + 1<br>        print(mid)<br>    return ans</p><p>print(binarySearch(K))</p><p>‘’’</p>]]></content>
+    <content type="html"><![CDATA[<p>백준 예산<br>~~~python</p><p>N=int(input())<br>M=list(map(int,input().split()))<br>K=int(input())</p><p>def budget(a):<br>    sum=0<br>    for i in M:<br>        if i&lt;a:<br>            sum += i<br>        else:<br>            sum += a<br>    return sum</p><p>def binarySearch(K):<br>    start=min(M)<br>    end=max(M)<br>    ans = 0<br>    while(start&lt;=end):<br>        mid = (start+end)//2<br>        Sum = budget(mid)<br>        if Sum &gt;= K :<br>            end = mid -1<br>        if Sum &lt; K:<br>            ans = mid<br>            start = mid + 1<br>        print(mid)<br>    return ans</p><p>print(binarySearch(K))</p><p>~~~</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;백준 예산&lt;br&gt;‘’’python&lt;/p&gt;
+        &lt;p&gt;백준 예산&lt;br&gt;~~~python&lt;/p&gt;
 &lt;p&gt;N=int(input())&lt;br&gt;M=list(map(int,input().split()))&lt;br&gt;K=int(input())&lt;/p&gt;
 &lt;p&gt;def budget(a):&lt;br&gt;    sum=0&lt;br&gt;    
       
