@@ -12,14 +12,14 @@
     
     <meta name="keywords" content="" />
     
-    <meta name="description" content="백준 예산~~~python N=int(input())M=list(map(int,input().split()))K=int(input()) def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    return sum">
+    <meta name="description" content="백준 예산   N=int(input()) M=list(map(int,input().split())) K=int(input())   def budget(a):     sum=0     for i in M:         if i">
 <meta property="og:type" content="article">
 <meta property="og:title" content="틀린거라도 올려보자">
 <meta property="og:url" content="https:&#x2F;&#x2F;solisgrowing.github.io&#x2F;2019&#x2F;11&#x2F;20&#x2F;%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D&#x2F;index.html">
 <meta property="og:site_name" content="FORHAPPYLIFE">
-<meta property="og:description" content="백준 예산~~~python N=int(input())M=list(map(int,input().split()))K=int(input()) def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    return sum">
+<meta property="og:description" content="백준 예산   N=int(input()) M=list(map(int,input().split())) K=int(input())   def budget(a):     sum=0     for i in M:         if i">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-26T05:19:22.857Z">
+<meta property="og:updated_time" content="2019-11-26T05:23:03.737Z">
 <meta name="twitter:card" content="summary">
     
 
@@ -171,13 +171,42 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p>백준 예산<br>~~~python</p>
-<p>N=int(input())<br>M=list(map(int,input().split()))<br>K=int(input())</p>
-<p>def budget(a):<br>    sum=0<br>    for i in M:<br>        if i&lt;a:<br>            sum += i<br>        else:<br>            sum += a<br>    return sum</p>
-<p>def binarySearch(K):<br>    start=min(M)<br>    end=max(M)<br>    ans = 0<br>    while(start&lt;=end):<br>        mid = (start+end)//2<br>        Sum = budget(mid)<br>        if Sum &gt;= K :<br>            end = mid -1<br>        if Sum &lt; K:<br>            ans = mid<br>            start = mid + 1<br>        print(mid)<br>    return ans</p>
-<p>print(binarySearch(K))</p>
-<p>~~~</p>
+            <p>백준 예산</p>
+<pre><code>
 
+N=int(input())
+M=list(map(int,input().split()))
+K=int(input())
+
+
+def budget(a):
+    sum=0
+    for i in M:
+        if i<a:
+            sum += i
+        else:
+            sum += a
+    return sum
+
+def binarySearch(K):
+    start=min(M)
+    end=max(M)
+    ans = 0
+    while(start<=end):
+        mid = (start+end)//2
+        Sum = budget(mid)
+        if Sum >= K :
+            end = mid -1
+        if Sum < K:
+            ans = mid
+            start = mid + 1
+        print(mid)
+    return ans
+
+print(binarySearch(K))
+
+
+</code></pre>
         </div>
         <footer class="article-footer">
             
@@ -262,10 +291,20 @@
         "dateCreated": "2019-11-20",
         "dateModified": "2019-11-26",
         "url": "https://solisgrowing.github.io/2019/11/20/머신러닝/",
-        "description": "백준 예산~~~python
-N=int(input())M=list(map(int,input().split()))K=int(input())
-def budget(a):    sum=0    for i in M:        if i&lt;a:            sum += i        else:            sum += a    return sum
-",
+        "description": "백준 예산
+
+
+N=int(input())
+M=list(map(int,input().split()))
+K=int(input())
+
+
+def budget(a):
+    sum=0
+    for i in M:
+        if i= K :
+            end = mid -1
+        if Sum ",
         "wordCount": 184
     }
 </script>
