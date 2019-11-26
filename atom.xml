@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://solisgrowing.github.io/"/>
-  <updated>2019-11-26T05:23:03.737Z</updated>
+  <updated>2019-11-26T05:24:41.740Z</updated>
   <id>https://solisgrowing.github.io/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/"/>
     <id>https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</id>
     <published>2019-11-20T02:26:49.000Z</published>
-    <updated>2019-11-26T05:23:03.737Z</updated>
+    <updated>2019-11-26T05:24:41.740Z</updated>
     
-    <content type="html"><![CDATA[<p>백준 예산</p><pre><code>N=int(input())M=list(map(int,input().split()))K=int(input())def budget(a):    sum=0    for i in M:        if i<a:            sum += i        else:            sum += a    return sumdef binarySearch(K):    start=min(M)    end=max(M)    ans = 0    while(start<=end):        mid = (start+end)//2        Sum = budget(mid)        if Sum >= K :            end = mid -1        if Sum < K:            ans = mid            start = mid + 1        print(mid)    return ansprint(binarySearch(K))</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>백준 예산</p><pre><code>  <blockquote>N=int(input())M=list(map(int,input().split()))K=int(input())def budget(a):    sum=0    for i in M:        if i<a:            sum += i        else:            sum += a    return sumdef binarySearch(K):    start=min(M)    end=max(M)    ans = 0    while(start<=end):        mid = (start+end)//2        Sum = budget(mid)        if Sum >= K :            end = mid -1        if Sum < K:            ans = mid            start = mid + 1        print(mid)    return ansprint(binarySearch(K))</blockquote></code></pre>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;백준 예산&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
+&lt;pre&gt;&lt;code&gt;  &lt;blockquote&gt;
+
 
 N=int(input())
 M=list(map(int,input().split()))
@@ -39,8 +40,7 @@ K=int(input())
 
 def budget(a):
     sum=0
-    for i in M:
-        
+    for i
       
     
     </summary>
