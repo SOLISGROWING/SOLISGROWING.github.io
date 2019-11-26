@@ -6,18 +6,20 @@
     
 
     
-    <title>머신러닝 | FORHAPPYLIFE</title>
+    <title>틀린거라도 올려보자 | FORHAPPYLIFE</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="keywords" content="" />
     
-    <meta property="og:type" content="article">
-<meta property="og:title" content="머신러닝">
+    <meta name="description" content="백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input()) M은 예산, K는 제한금액def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    retu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="틀린거라도 올려보자">
 <meta property="og:url" content="https:&#x2F;&#x2F;solisgrowing.github.io&#x2F;2019&#x2F;11&#x2F;20&#x2F;%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D&#x2F;index.html">
 <meta property="og:site_name" content="FORHAPPYLIFE">
+<meta property="og:description" content="백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input()) M은 예산, K는 제한금액def budget(a):    sum=0    for i in M:        if i&amp;lt;a:            sum += i        else:            sum += a    retu">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-20T02:26:49.755Z">
+<meta property="og:updated_time" content="2019-11-26T05:08:53.702Z">
 <meta name="twitter:card" content="summary">
     
 
@@ -141,7 +143,7 @@
                 
     
         <h1 class="article-title" itemprop="name">
-        머신러닝
+        틀린거라도 올려보자
         </h1>
     
 
@@ -169,14 +171,19 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            
+            <p>백준 예산<br>‘’’N=int(input())<br>M=list(map(int,input().split()))<br>K=int(input())</p>
+<h1 id="M은-예산-K는-제한금액"><a href="#M은-예산-K는-제한금액" class="headerlink" title="M은 예산, K는 제한금액"></a>M은 예산, K는 제한금액</h1><p>def budget(a):<br>    sum=0<br>    for i in M:<br>        if i&lt;a:<br>            sum += i<br>        else:<br>            sum += a<br>    return sum</p>
+<p>def binarySearch(K):<br>    start=min(M)<br>    end=max(M)<br>    ans = 0<br>    while(start&lt;=end):<br>        mid = (start+end)//2<br>        Sum = budget(mid)<br>        if Sum &gt;= K :<br>            end = mid -1<br>        if Sum &lt; K:<br>            ans = mid<br>            start = mid + 1<br>        print(mid)<br>    return ans</p>
+<p>print(binarySearch(K))</p>
+<p>‘’’</p>
+
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/" data-id="ck36o1t2b000114v383ddalwk" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/" data-id="ck36o2ld700012sv3e0yigp52" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -246,16 +253,17 @@
             "@type": "Person",
             "name": "YEJI"
         },
-        "headline": "머신러닝",
+        "headline": "틀린거라도 올려보자",
         "image": "https://solisgrowing.github.io",
         "keywords": "",
         "genre": "",
         "datePublished": "2019-11-20",
         "dateCreated": "2019-11-20",
-        "dateModified": "2019-11-20",
+        "dateModified": "2019-11-26",
         "url": "https://solisgrowing.github.io/2019/11/20/머신러닝/",
-        "description": "",
-        "wordCount": 1
+        "description": "백준 예산‘’’N=int(input())M=list(map(int,input().split()))K=int(input())
+M은 예산, K는 제한금액def budget(a):    sum=0    for i in M:        if i&lt;a:            sum += i        else:            sum += a    retu",
+        "wordCount": 194
     }
 </script>
 
@@ -373,7 +381,7 @@
                         
                         <div class="item-inner">
                             <p class="item-category"></p>
-                            <p class="item-title"><a href="/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/" class="title">머신러닝</a></p>
+                            <p class="item-title"><a href="/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/" class="title">틀린거라도 올려보자</a></p>
                             <p class="item-date"><time datetime="2019-11-20T02:26:49.000Z" itemprop="datePublished">2019-11-20</time></p>
                         </div>
                     </li>
