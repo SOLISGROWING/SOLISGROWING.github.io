@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://solisgrowing.github.io/"/>
-  <updated>2020-02-11T08:05:22.225Z</updated>
+  <updated>2020-02-11T10:11:36.987Z</updated>
   <id>https://solisgrowing.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://solisgrowing.github.io/2020/02/10/googlecloudplatform-using-selenium/"/>
     <id>https://solisgrowing.github.io/2020/02/10/googlecloudplatform-using-selenium/</id>
     <published>2020-02-10T08:06:33.000Z</published>
-    <updated>2020-02-11T08:05:22.225Z</updated>
+    <updated>2020-02-11T10:11:36.987Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="구글클라우드플랫폼으로-headless-chrome사용하기"><a href="#구글클라우드플랫폼으로-headless-chrome사용하기" class="headerlink" title="구글클라우드플랫폼으로 headless chrome사용하기"></a>구글클라우드플랫폼으로 headless chrome사용하기</h1><ul><li>야매주의<br>selenium이 너무 느려서 여러개를 돌리고 싶은데, 여러개를 돌리면 차단을 당한다.<br>그래서 구글클라우드플랫폼으로 selenium을 돌려본다.<br>이글은 정리 하는 겸으로 쓰는 거이 기에 막 써본다. </li></ul><p>출처 :<a href="https://blowup-bbs.com/gcp-cloud-functions-python3/" target="_blank" rel="noopener">https://blowup-bbs.com/gcp-cloud-functions-python3/</a><br>을 제대로 참고해 보면 된다. </p><h2 id="step1"><a href="#step1" class="headerlink" title="step1"></a>step1</h2><p><img src="/image/gcp1.PNG" alt="step1"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="구글클라우드플랫폼으로-headless-chrome사용하기"><a href="#구글클라우드플랫폼으로-headless-chrome사용하기" class="headerlink" title="구글클라우드플랫폼으로 headless chrome사용하기"></a>구글클라우드플랫폼으로 headless chrome사용하기</h1><ul><li>야매주의<br>selenium이 너무 느려서 여러개를 돌리고 싶은데, 여러개를 돌리면 차단을 당한다.<br>그래서 구글클라우드플랫폼으로 selenium을 돌려본다.<br>이글은 정리 하는 겸으로 쓰는 거이 기에 막 써본다. </li></ul><p>출처 :<a href="https://blowup-bbs.com/gcp-cloud-functions-python3/" target="_blank" rel="noopener">https://blowup-bbs.com/gcp-cloud-functions-python3/</a><br>을 제대로 참고해 보면 된다. </p><h3 id="아래의-명렁어를-입력해준다"><a href="#아래의-명렁어를-입력해준다" class="headerlink" title="아래의 명렁어를 입력해준다."></a>아래의 명렁어를 입력해준다.</h3><h2 id="STEP1"><a href="#STEP1" class="headerlink" title="STEP1"></a>STEP1</h2><h4 id="git-clone-https-github-com-ryfeus-gcf-packs-git"><a href="#git-clone-https-github-com-ryfeus-gcf-packs-git" class="headerlink" title="git clone https://github.com/ryfeus/gcf-packs.git"></a>git clone <a href="https://github.com/ryfeus/gcf-packs.git" target="_blank" rel="noopener">https://github.com/ryfeus/gcf-packs.git</a></h4><p><img src="/image/gcp1.PNG" alt="step1"></p><h4 id="cd-gcf-packs-selenium-chrome-source"><a href="#cd-gcf-packs-selenium-chrome-source" class="headerlink" title="cd gcf-packs/selenium_chrome/source"></a>cd gcf-packs/selenium_chrome/source</h4><p><img src="/image/gcp2.PNG" alt="step2"></p><h4 id="unzip-headless-chromium-zip"><a href="#unzip-headless-chromium-zip" class="headerlink" title="unzip headless-chromium.zip"></a>unzip headless-chromium.zip</h4><h4 id="gcloud-functions-deploy-handler-–runtime-python37-–trigger-http-–region-asia-northeast1-–memory-512MB"><a href="#gcloud-functions-deploy-handler-–runtime-python37-–trigger-http-–region-asia-northeast1-–memory-512MB" class="headerlink" title="gcloud functions deploy handler –runtime python37 –trigger-http –region asia-northeast1 –memory 512MB"></a>gcloud functions deploy handler –runtime python37 –trigger-http –region asia-northeast1 –memory 512MB</h4><p>까먹어서 사진이 없다..</p>]]></content>
     
     <summary type="html">
     
