@@ -6,21 +6,19 @@
     
 
     
-    <title>틀린거라도 올려보자 | FORHAPPYLIFE</title>
+    <title>javascript | FORHAPPYLIFE</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="keywords" content="" />
     
-    <meta name="description" content="백준 예산 1234567891011121314151617181920212223242526272829303132333435    N&#x3D;int(input())M&#x3D;list(map(int,input().split()))K&#x3D;int(input())def budget(a):    sum&#x3D;0    for i in M:        if">
-<meta property="og:type" content="article">
-<meta property="og:title" content="틀린거라도 올려보자">
-<meta property="og:url" content="https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="javascript">
+<meta property="og:url" content="https://solisgrowing.github.io/2020/02/14/javascript/index.html">
 <meta property="og:site_name" content="FORHAPPYLIFE">
-<meta property="og:description" content="백준 예산 1234567891011121314151617181920212223242526272829303132333435    N&#x3D;int(input())M&#x3D;list(map(int,input().split()))K&#x3D;int(input())def budget(a):    sum&#x3D;0    for i in M:        if">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2019-11-20T02:26:49.000Z">
-<meta property="article:modified_time" content="2019-11-26T05:32:48.779Z">
+<meta property="article:published_time" content="2020-02-14T02:49:49.000Z">
+<meta property="article:modified_time" content="2020-02-14T02:49:49.115Z">
 <meta property="article:author" content="YEJI">
 <meta name="twitter:card" content="summary">
     
@@ -154,14 +152,14 @@
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-머신러닝" class="article article-single article-type-post" itemscope itemprop="blogPost">
+                            <article id="post-javascript" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        틀린거라도 올려보자
+        javascript
         </h1>
     
 
@@ -172,8 +170,8 @@
                 
     <div class="article-date">
       <i class="fa fa-calendar"></i>
-      <a href="/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/" class="article-date">
-         <time datetime="2019-11-20T02:26:49.000Z" itemprop="datePublished">2019-11-20</time>
+      <a href="/2020/02/14/javascript/" class="article-date">
+         <time datetime="2020-02-14T02:49:49.000Z" itemprop="datePublished">2020-02-14</time>
       </a>
     </div>
 
@@ -189,16 +187,14 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p>백준 예산</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">    </span><br><span class="line">N&#x3D;int(input())</span><br><span class="line">M&#x3D;list(map(int,input().split()))</span><br><span class="line">K&#x3D;int(input())</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def budget(a):</span><br><span class="line">    sum&#x3D;0</span><br><span class="line">    for i in M:</span><br><span class="line">        if i&lt;a:</span><br><span class="line">            sum +&#x3D; i</span><br><span class="line">        else:</span><br><span class="line">            sum +&#x3D; a</span><br><span class="line">    return sum</span><br><span class="line"></span><br><span class="line">def binarySearch(K):</span><br><span class="line">    start&#x3D;min(M)</span><br><span class="line">    end&#x3D;max(M)</span><br><span class="line">    ans &#x3D; 0</span><br><span class="line">    while(start&lt;&#x3D;end):</span><br><span class="line">        mid &#x3D; (start+end)&#x2F;&#x2F;2</span><br><span class="line">        Sum &#x3D; budget(mid)</span><br><span class="line">        if Sum &gt;&#x3D; K :</span><br><span class="line">            end &#x3D; mid -1</span><br><span class="line">        if Sum &lt; K:</span><br><span class="line">            ans &#x3D; mid</span><br><span class="line">            start &#x3D; mid + 1</span><br><span class="line">        print(mid)</span><br><span class="line">    return ans</span><br><span class="line"></span><br><span class="line">print(binarySearch(K))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  </span><br></pre></td></tr></table></figure>
-
+            
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/" data-id="ck6lkrnsd000cwcv3dmoc1vi8" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://solisgrowing.github.io/2020/02/14/javascript/" data-id="ck6lkrnsb000awcv3dggifo0u" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -268,17 +264,16 @@
             "@type": "Person",
             "name": "YEJI"
         },
-        "headline": "틀린거라도 올려보자",
+        "headline": "javascript",
         "image": "https://solisgrowing.github.io",
         "keywords": "",
         "genre": "",
-        "datePublished": "2019-11-20",
-        "dateCreated": "2019-11-20",
-        "dateModified": "2019-11-26",
-        "url": "https://solisgrowing.github.io/2019/11/20/머신러닝/",
-        "description": "백준 예산
-1234567891011121314151617181920212223242526272829303132333435    N&#x3D;int(input())M&#x3D;list(map(int,input().split()))K&#x3D;int(input())def budget(a):    sum&#x3D;0    for i in M:        if ",
-        "wordCount": 264
+        "datePublished": "2020-02-14",
+        "dateCreated": "2020-02-14",
+        "dateModified": "2020-02-14",
+        "url": "https://solisgrowing.github.io/2020/02/14/javascript/",
+        "description": "",
+        "wordCount": 1
     }
 </script>
 
@@ -359,20 +354,10 @@
         
 <nav id="article-nav">
     
-        <a href="/2019/11/27/Programming/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">newer</strong>
-        <p class="article-nav-title">
-        
-            Dynamic Programming Step1
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
     
-    
-        <a href="/2019/11/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/2020/02/14/for-memory/" id="article-nav-older" class="article-nav-link-wrap">
         <strong class="article-nav-caption">older</strong>
-        <p class="article-nav-title">Hello World</p>
+        <p class="article-nav-title">참고용</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
     
@@ -588,7 +573,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'https://solisgrowing.github.io/2019/11/20/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/';
+    var disqus_url = 'https://solisgrowing.github.io/2020/02/14/javascript/';
     
     (function() {
     var dsq = document.createElement('script');
